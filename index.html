@@ -21,6 +21,10 @@
     <meta name="twitter:title" content="Basement Renovation — The Christensen Home">
     <meta name="twitter:description" content="A Victorian home revival. See the before & after transformation of this 1895 basement.">
     <meta name="twitter:image" content="https://67jreno.vercel.app/images/After-hallway.jpeg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><g fill='none' stroke='%23C9A227' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'><path d='M8 28 L32 8 L56 28'/><path d='M14 28 V54 H50 V28'/><path d='M22 38 V54'/><path d='M42 38 V54'/></g></svg>">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -108,6 +112,14 @@
             font-size: 2rem;
             margin-bottom: 1rem;
             letter-spacing: 0.5rem;
+        }
+
+        .house-icon {
+            width: 120px;
+            height: auto;
+            margin-bottom: 1rem;
+            color: var(--gold);
+            opacity: 0.9;
         }
 
         h1 {
@@ -418,7 +430,32 @@
 </head>
 <body>
     <header>
-        <div class="header-ornament">❦ ❦ ❦</div>
+        <svg class="house-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" fill="none">
+            <g stroke="currentColor" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M365 210 L700 55 L935 210" />
+                <path d="M935 210 L935 770 L315 770 L315 260" />
+                <path d="M315 260 L365 210" />
+                <path d="M405 210 L700 85 L900 210" />
+                <path d="M690 210 L690 345" />
+                <path d="M760 210 L760 345" />
+                <path d="M650 345 L800 345" />
+                <path d="M660 470 H920 V650 H660 Z" />
+                <path d="M660 520 H920" />
+                <path d="M240 360 H640" />
+                <path d="M260 360 L300 300 H610 L640 360" />
+                <path d="M295 360 V660" />
+                <path d="M585 360 V660" />
+                <path d="M240 660 H640" />
+                <path d="M260 660 V560 H420" />
+                <path d="M420 660 V560" />
+                <path d="M280 590 H420" />
+                <path d="M360 770 H590" />
+                <path d="M380 810 H570" />
+                <path d="M400 850 H550" />
+                <path d="M445 515 H535 V660 H445 Z" />
+                <path d="M505 590 C505 565 485 545 460 545" />
+            </g>
+        </svg>
         <h1>Basement Renovation</h1>
         <p class="subtitle">The Christensen Home</p>
         <p class="address">67 J Street · Salt Lake City, Utah</p>
